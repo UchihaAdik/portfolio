@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Madimi One", sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Madimi One", sans-serif;
+}
+header{
+    padding: 0 50px 0 30px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+.header__link_logo{
+    margin-left: 35px;
+    font-size: 23px;
+}
+.header__link{
+    margin-right: 35px;
+    font-size: 18px;
+}
+.header__link:hover{
+    border-bottom: 3px solid  rgb(109, 135, 220);
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 200px;
+    height: auto;
+}
+.about_me{
+    max-width: 950px;
+    margin: auto;
+    padding: 0 50px;
+}
+.about_me__topconteiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about_me__skils_title{
+    font-size: 45px;
+    width: 350px;
+}
+.about_me__skils__text{
+    width: 350px;
+    margin: 35px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+#icon_aboutme{
+    font-size: 21px;
+    margin-right: 10px;
+}
+.about_me__conteiner{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(109, 135, 220);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: math 8s ease-in-out infinite;
+    background: url("./photo_2024-02-24_21-39-14.jpg") center/cover;
+}
+@keyframes math {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+.TechStack_conteiner{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.TechStack{
+    display: inline-block;
+    /* margin-left: 50px; */
+}
+#TechStack_icon{
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.skilsAndme{
+    max-width: 900px;
+    padding: 0 50px;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+
+}
+.skilsAndme_img{
+    background: url('./laptop_keyboard_marble_221462_3840x2400.jpg') center/cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+.skilsAndme_subtitle{
+    font-size: 15px;
+    color: rgb(109, 135, 220);
+}
+.skilsAndme_title{
+    font-size: 20px;
+    width: 400px;
+    margin: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.skilsAndme_text{
+    max-width: 400px;
+}
+
+.Project{
+    padding: 150px 50px 0;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.project_musik{
+    display: flex;
+    margin-top: 30px;
+}
+.project_musik_img1{
+    background: url("./рестик.JPG") center/cover;
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.project_musik_titleconteiner{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.project_musik_React{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_musik_React h3{
+    margin-right: 25px;
+}
+.project_musik_LiveDemo:hover{
+    color: #f36d40;
+}
+.project_musik_LiveDemo2:hover{
+    color: rgb(109, 135, 220);
+}
+.project_musik_text{
+    width: 300px;
+}
+
+
+.project_musik2{
+    display: flex;
+    margin: 150px 0;
+    flex-direction: row-reverse;
+}
+.project_musik_img2{
+    background: url("./Снимок.JPG") center/cover;
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.project_musik_titleconteiner{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    height: auto;
+    
+}
+.project_musik_React{
+    display: flex;
+}
+.project_musik_React h3{
+    margin-right: 15px;
+}
+
+
+
+
+footer{
+    padding: 0 100px;
+    margin-top: 150px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(236, 35, 35); */
+}
+.footer__link{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.footer__link_center{
+    display: flex;
+    align-items: center;
+}
+#footer__link_icon{
+    margin-right: 10px;
+}
+.footer__link:hover #footer__link_icon{
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(109, 135, 220);
+
+}
+
+
+@media all and (max-width: 980px) {
+    .Project{
+        text-align: center;
+    }
+    .Project_titleH{
+        display: inline-block;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+
+    .project_musik{
+        margin: auto 0;
+        flex-direction: column;
+    }
+    .project_musik_img1{
+        margin: auto;
+        max-width: 600px;
+    }
+    .project_musik_text{
+        margin: auto;
+        padding: 15px 0;
+    }
+    .project_musik2{
+        margin: auto 0;
+        flex-direction: column;
+    }
+    .project_musik_img2{
+        margin: auto;
+        max-width: 600px;
+        margin-top: 50px;
+    }
+    
+
+}
+@media all and (max-width: 770px) {
+    .project_musik_img1{
+        width: 100%;
+        height: 280px;
+    }
+    .project_musik_img2{
+        width: 100%;
+        height: 280px;
+    }
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_me__topconteiner{
+        flex-direction: column-reverse;
+        margin: auto;
+        width: 100%;
+    }
+    .about_me__conteiner{
+        margin: auto;
+    }
+    .about_me__skils{
+        margin: auto;
+    }
+    .TechStack_conteiner{
+        margin-top: 15px;
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+   footer{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 15px;
+        padding: 0 15px;
+    }
+    .skilsAndme{
+        flex-direction: column;
+    }
+    .skilsAndme_img{
+        margin: auto;
+    }
+    .skilsAndme_aboutConteiner{
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+}
+
+@media all and (max-width: 650px) {
+    .project_musik_img2{
+        height: 200px;
+    }
+    .project_musik_img1{
+        height: 200px;
+    }
+    .Project{
+        padding:  0 15px;
+    }
+    .skilsAndme_text{
+        width: 300px;
+        margin: auto;
+    }
+    .skilsAndme_title{
+        width: 300px;
+    }
+    .skilsAndme{
+        padding: 0 15px;
+        margin: 50px 0;
+    }
+    .TechStack_conteiner{
+        gap: 20px;
+    }
+    .TechStack{
+    display: block;
+    }
+    #TechStack_icon{
+        margin: 0;
+    }
+}
