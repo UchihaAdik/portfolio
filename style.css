@@ -478,6 +478,9 @@ footer{
     .hamburger-menu{
         display: block;
     }
+    .header__link_logo{
+        margin-left: 15px;
+    }
 }
 
 
