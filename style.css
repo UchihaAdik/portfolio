@@ -430,6 +430,7 @@ footer{
     }
     .Project{
         padding:  0 15px;
+        margin: 100px 0;
     }
     .skilsAndme_text{
         width: 300px;
@@ -441,7 +442,7 @@ footer{
     }
     .skilsAndme{
         padding: 0 15px;
-        margin: 50px 0;
+        margin: 100px 0;
     }
     .TechStack_conteiner{
         gap: 20px;
@@ -459,6 +460,7 @@ footer{
     .about_me{
         padding: 0 15px;
         text-align: center;
+        
     }
     .about_me__skils_title{
         width: 300px;
@@ -480,6 +482,10 @@ footer{
     }
     .header__link_logo{
         margin-left: 15px;
+        
+    }
+    header{
+        padding-left: 20px;
     }
 }
 
